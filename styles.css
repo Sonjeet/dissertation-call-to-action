@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Viga&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300&display=swap');
+
+:root {
+    --darkblue: #434977;
+    --light: #DDE7FF;
+    --grey: #C9D2E8;
+    --heading: 'Viga', sans-serif;
+    --text: 'Oxygen', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: var(--darkblue);
+    font-family: var(--text);
+    color: var(--light);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h1,
+h2,
+h3 {
+    font-family: var(--heading);
+    font-size: 3rem;
+}
+
+.details {
+    padding: 0 20vw;
+    margin-top: 40px;
+}
+
+.link {
+    margin-top: 40px;
+    color: var(--light);
+}
